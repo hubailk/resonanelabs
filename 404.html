@@ -20,5 +20,11 @@
     </script>
   </head>
   <body>
+    <script>
+      // Fallback redirect if the above doesn't work
+      setTimeout(function() {
+        window.location.href = '/';
+      }, 100);
+    </script>
   </body>
 </html>
